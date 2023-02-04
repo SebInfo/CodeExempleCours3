@@ -1,4 +1,9 @@
-.grid-container {
+.container-langage {
     background-color: aqua;
-    display: grid;
+    display: inline-grid;
+}
+
+.container-bdd {
+    background-color: rgb(47, 255, 0);
+    display: inline-grid;
 }
