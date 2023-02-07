@@ -1,0 +1,49 @@
+
+.container-langage {
+    display: grid;
+    background-color: rgb(198, 208, 208);
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(3,200px);
+    gap: 1em;
+    justify-content: center;
+}
+
+div {
+    color: white;
+    text-align: center;
+}
+div:nth-of-type(1){
+    background-color: rgb(56, 123, 181);
+}
+
+div:nth-child(2){
+    background-color: rgb(206, 184, 14);
+}
+
+div:nth-child(3){
+    background-color: rgb(144, 10, 104);
+}
+
+div:nth-child(4){
+    background-color: rgb(24, 143, 103);
+}
+
+div:nth-child(5){
+    background-color: rgb(237, 97, 4);
+}
+div:nth-child(6){
+    background-color: rgb(48, 47, 35);
+}
+
+div:nth-child(7){
+    background-color: rgb(128, 132, 233);
+}
+
+div:nth-child(8){
+    background-color: rgb(245, 225, 11);
+    order: -1;
+}
+
+div:nth-child(9){
+    background-color: rgb(24, 176, 223);
+}
